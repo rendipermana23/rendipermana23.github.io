@@ -1,0 +1,280 @@
+* {
+  font-family: "poppins", sans-serif;
+}
+
+:root {
+  --click-text: #727272;
+}
+
+/* NAVBAR COMPONENT */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar .nav-links a {
+  font-weight: bold;
+  margin: 1.3rem;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar .nav-links a:hover {
+  color: var(--click-text);
+}
+
+.navbar span {
+  color: red;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* NAVBAR COMPONENT */
+
+/* HOMEPAGE HEADER */
+header {
+  background: linear-gradient(to left, #9f9cff, #aaffa9, #a8fffc);
+  letter-spacing: 4px;
+}
+/* HOMEPAGE HEADER */
+
+/* HOMEPAGE ABOUT PAGE */
+.homepage .about {
+  background-color: #fff;
+}
+
+.homepage .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage .about .kotak1 {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.homepage .about .kotak1 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.homepage .about .kotak1 p {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.homepage .about .kotak1 span {
+  color: red;
+}
+
+.homepage .about .kotak2 {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.homepage .about .kotak2 img {
+  width: 300px;
+  height: 300px;
+  cursor: grab;
+}
+
+.homepage .about .kotak2 {
+  margin-left: 70px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+
+  /* Navbar Component */
+
+  /* Navbar Component */
+
+  /* Homepage About */
+  .homepage .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .homepage .about .kotak1,
+  .homepage .about .kotak2 {
+    max-width: 90%;
+    background-color: #ffffff;
+    margin: 1rem auto; /* Menambahkan margin untuk memusatkan elemen */
+    padding: 2rem; /* Menambahkan padding agar bayangan tetap terlihat */
+    text-align: center; /* Pusatkan konten teks */
+  }
+
+  .homepage .about .kotak1 img,
+  .homepage .about .kotak2 img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Pusatkan gambar secara horizontal */
+  }
+
+  .homepage .about .kotak1 img {
+    width: 230px;
+    height: 230px;
+  }
+
+  .homepage .kotak2 h2 {
+    font-size: 2rem;
+  }
+
+  .homepage .btn-prjt button {
+    margin-bottom: 40px;
+  }
+  /* Homepage About*/
+
+  /* About Page */
+  .about-page .about .list-hobby {
+    padding-left: 2.5rem;
+  }
+  /* About Page */
+
+  /* Contact Page */
+  .contact-page .contact .container {
+    width: 90%;
+    max-height: 450px;
+    background-color: #ffffff;
+    margin: 1rem;
+    padding: 2rem;
+  }
+  /* Contact Page */
+}
+/* homepage about */
+/* HOMEPAGE ABOUT PAGE */
+
+/* SKILLS COMPONENT */
+.mySwiper {
+  width: 100%;
+  height: 400px;
+}
+/* SKILLS COMPONENT */
+
+/* ABOUT PAGES */
+.about-page .about .skills {
+  padding-left: 1rem;
+}
+
+.about-page .about .skills img {
+  width: 150px;
+  height: 150px;
+}
+/* ABOUT PAGES */
+
+/* PROJECT PAGES */
+.project-page .project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* PROJECT PAGES */
+
+/* CONTACT PAGE */
+.contact-page .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-page .contact .container {
+  width: 1200px;
+  height: 600px;
+  background-color: #fff;
+}
+
+.contact-page .contact .sosmed .sosmed-link a {
+  color: #000;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+.contact-page .contact .sosmed .sosmed-link a:hover {
+  color: #727272;
+}
+
+.contact-page .contact .sosmed .sosmed-link a:active {
+  transform: scale(1.2);
+}
+/* CONTACT PAGE */
+
+/* FOOTER COMPONENT */
+.footer-comp footer {
+  width: 100%;
+  min-height: 250px;
+  background-color: yellow;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.footer-comp footer h3 span {
+  color: red;
+}
+
+.footer-comp footer :nth-child(1) p {
+  margin-left: 0.6rem;
+}
+
+.footer-comp footer .sosmed-footer a {
+  color: #000;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+.footer-comp footer .sosmed-footer a:hover {
+  color: #727272;
+}
+
+.footer-comp footer .sosmed-footer a:active {
+  transform: scale(1.2);
+}
+
+.footer-comp footer .menu a,
+h5 {
+  color: #000;
+  text-decoration: none;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-comp footer .menu a:hover {
+  color: #727272;
+}
+
+.footer-comp footer .menu a:active {
+  transform: scale(1.2);
+}
+
+.crtd-by {
+  background-color: aqua;
+  width: 100%;
+  min-height: 50px;
+}
+/* FOOTER COMPONENT */

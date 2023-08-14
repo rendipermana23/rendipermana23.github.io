@@ -1,6 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { mySkills } from "../Data/index";
 
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
+
 const AboutPage = () => {
   return (
     <div className="about-page">
@@ -25,7 +30,11 @@ const AboutPage = () => {
           <Row className="skills pt-5 pr-2">
             {mySkills.map((data) => {
               return (
-                <Col key={data.id}>
+                <Col
+                  key={data.id}
+                  data-aos="flip-right"
+                  data-aos-duration="1000"
+                >
                   <img src={data.image} className="shadow rounded-2" />
                   <p className="fw-bold pt-3">{data.text}</p>
                 </Col>

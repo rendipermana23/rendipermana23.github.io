@@ -48,7 +48,6 @@ const HomePage = () => {
                 <span className="fw-bold"> Front End Developer</span>.
               </p>
             </Col>
-
             <Col className="kotak2">
               <h2 className="fw-bold pb-5">My Skills</h2>
 

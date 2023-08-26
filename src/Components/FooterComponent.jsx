@@ -31,9 +31,9 @@ const FooterComponent = () => {
             <Col className="menu fw-bold pt-5">
               <h5 className="fw-bold fs-4">Menu</h5>
               <Link to="/">Homepage</Link>
-              <Link to="/">About</Link>
-              <Link to="/">Project</Link>
-              <Link to="/">Contact</Link>
+              <Link to="/about">About</Link>
+              <Link to="/project">Project</Link>
+              <Link to="/contact">Contact</Link>
             </Col>
           </Row>
         </Container>

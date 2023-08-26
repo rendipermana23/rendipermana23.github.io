@@ -25,7 +25,7 @@ const HomePage = () => {
               <div className="pb-4">
                 <h1 className="fw-bold text-center">
                   Welcome To
-                  <br /> My Personal Website Rendi Permana😊
+                  <br /> My Personal Website Permana😊
                 </h1>
               </div>
               <div className="text-center">
@@ -81,6 +81,7 @@ const HomePage = () => {
           My Project
         </button>
       </div>
+      <div className=""></div>
     </div>
   );
 };

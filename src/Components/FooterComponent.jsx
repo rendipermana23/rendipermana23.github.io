@@ -9,7 +9,7 @@ const FooterComponent = () => {
           <Row>
             <Col>
               <h3 className="fw-bold pt-5 fs-2">
-                Rendi.p <span>Dev</span>.
+                Rendi.p <span>Dev</span>
               </h3>
               <p className="fw-bold fs-4 pt-2">My Sosmed</p>
               <div className="sosmed-footer">

@@ -25,7 +25,7 @@ const HomePage = () => {
               <div className="pb-4">
                 <h1 className="fw-bold text-center">
                   Welcome To
-                  <br /> My Personal Website Ren Permana😊
+                  <br /> My Personal Website Permana😊
                 </h1>
               </div>
               <div className="text-center">
